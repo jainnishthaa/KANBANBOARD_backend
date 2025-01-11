@@ -11,7 +11,7 @@ import taskRouter from "./src/routers/task.js";
 const app = express();
 const PORT = process.env.PORT;
 
-const allowedOrigins = ['http://localhost:5173', 'http://127.0.0.1:5173']; // Frontend origins
+const allowedOrigins = ['http://localhost:5173', 'http://127.0.0.1:5173', 'https://kanbanboard-frontend.vercel.app']; // Frontend origins
 
 app.use(
   cors({
